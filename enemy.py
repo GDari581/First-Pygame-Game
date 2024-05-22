@@ -11,6 +11,7 @@ except:
 
 originalImage = pygame.transform.scale_by(originalImage, enemyScale)
 
+# This is a change I'm making
 class Enemy(pygame.sprite.Sprite):
     def __init__(self, x, y):
         super().__init__()
